@@ -1,7 +1,44 @@
-# Ківі Сервіс — налаштування Netlify. Збірка не потрібна: сайт — готові файли з public/.
+# Ківі Сервіс — налаштування Netlify. Збірка не потрібна: сайт — готові файли в корені сховища.
 [build]
-  publish = "public"
+  publish = "."
   command = ""
 
 [functions]
   directory = "netlify/functions"
+
+# Службові файли лежать поруч зі сторінками — не віддаємо їх відвідувачам
+[[redirects]]
+  from = "/server.py"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/README.md"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/netlify.toml"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/.env.example"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/.gitignore"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/netlify/*"
+  to = "/404"
+  status = 404
+  force = true
