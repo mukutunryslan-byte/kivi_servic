@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ківі Сервіс — чистка криниць, септиків і каналізації</title>
+  <meta name="description" content="Професійна чистка криниць, відкачування септиків, гідродинамічне прочищення та відеодіагностика каналізації. Івано-Франківщина та Львівщина.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="uk_UA">
+  <meta property="og:title" content="Ківі Сервіс — чистка криниць і каналізації">
+  <meta property="og:description" content="Очищаємо стінки й дно криниць, відкачуємо септики та прочищаємо каналізацію.">
+  <meta name="theme-color" content="#171A16">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до змісту</a>
+
+  <div class="proto-banner" data-proto>
+    Прототип. Політика конфіденційності й реквізити — до надання власником.
+  </div>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="logo" href="#top" aria-label="Ківі Сервіс — на початок сторінки">
+        <span class="logo__dot" aria-hidden="true"></span>Ківі Сервіс
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основна навігація">
+        <ul class="nav__list">
+          <li><a href="#posluhy">Послуги</a></li>
+          <li><a href="#yak-pratsiuiemo">Як працюємо</a></li>
+          <li><a href="#roboty">Наші роботи</a></li>
+          <li data-reviews-link hidden><a href="#vidhuky">Відгуки</a></li>
+          <li><a href="#heohrafiia">Географія</a></li>
+          <li><a href="#kontakty">Контакти</a></li>
+        </ul>
+        <div class="nav__mobile-cta">
+          <a class="btn btn--primary btn--block" href="#zaiavka">Залишити заявку</a>
+        </div>
+      </nav>
+
+      <div class="header__actions">
+        <a class="header__phone" data-phone-link href="#kontakty">
+          <span data-phone-text>Телефон — незабаром</span>
+        </a>
+        <a class="btn btn--primary btn--sm header__cta" href="#zaiavka">Замовити дзвінок</a>
+        <button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Відкрити меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Перший екран -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow">Івано-Франківщина та Львівщина</p>
+          <h1>Професійна чистка криниць та&nbsp;каналізації</h1>
+          <p class="lead">Очищаємо стінки й дно криниць, відкачуємо септики та прочищаємо каналізацію. Пояснимо, які роботи потрібні, та узгодимо виїзд у ваш населений пункт.</p>
+          <div class="hero__buttons">
+            <a class="btn btn--primary btn--lg" href="#zaiavka">Уточнити вартість</a>
+            <a class="btn btn--ghost-light btn--lg" data-phone-link href="#kontakty">Зателефонувати</a>
+          </div>
+          <ul class="hero__points">
+            <li>Працюємо з кам’яними криницями</li>
+            <li>Миття стінок гідрофрезою</li>
+            <li>Дбаємо про порядок біля криниці</li>
+          </ul>
+        </div>
+        <figure class="hero__media">
+          <img class="photo" src="images/hero-900.jpg" srcset="images/hero-900.jpg 506w, images/hero-1600.jpg 900w" sizes="(min-width: 900px) 40vw, 100vw" width="900" height="1600" fetchpriority="high" alt="Майстер Ківі Сервіс у захисному костюмі працює біля бетонної криниці, позаду — машина компанії">
+        </figure>
+      </div>
+    </section>
+
+    <!-- Послуги -->
+    <section class="section" id="posluhy" aria-labelledby="posluhy-title">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow eyebrow--dark">Послуги</p>
+          <h2 id="posluhy-title">Що ми робимо</h2>
+        </div>
+
+        <div class="services">
+          <article class="service service--main">
+            <div class="service__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 9h16M6 9v11h12V9M9 4h6l1 5H8l1-5Z"/><path d="M12 13v4"/></svg>
+            </div>
+            <h3>Чистка криниць</h3>
+            <p>Миємо стінки гідрофрезою зверху донизу, розм’якшуємо донні відкладення та видаляємо мул, пісок і наноси. Працюємо, зокрема, з кам’яними криницями.</p>
+            <ul class="service__list">
+              <li>Миття стінок гідрофрезою</li>
+              <li>Видалення мулу, піску й наносів</li>
+              <li>Вивезення відходів — за домовленістю</li>
+            </ul>
+            <button class="btn btn--dark service__btn" type="button" data-service="Чистка криниці">Залишити заявку</button>
+          </article>
+
+          <article class="service">
+            <div class="service__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="8" width="13" height="9" rx="2"/><path d="M16 11h3l2 3v3h-5M7 20a2 2 0 1 0 0-.01M17 20a2 2 0 1 0 0-.01"/></svg>
+            </div>
+            <h3>Відкачування септиків і мулу</h3>
+            <p>Відкачуємо вміст септиків та мулові відкладення спеціалізованою технікою. Обсяг і умови уточнюємо під час звернення.</p>
+            <button class="btn btn--dark service__btn" type="button" data-service="Відкачування септика">Залишити заявку</button>
+          </article>
+
+          <article class="service">
+            <div class="service__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 10h12a4 4 0 0 1 4 4v6M3 14h10a2 2 0 0 1 2 2v4"/><path d="M6 6c0-1 1-2 1-3M10 6c0-1 1-2 1-3"/></svg>
+            </div>
+            <h3>Гідродинамічне прочищення</h3>
+            <p>Очищаємо каналізаційні труби водою під тиском. Чи підходить цей спосіб для вашого засмічення, визначає команда.</p>
+            <button class="btn btn--dark service__btn" type="button" data-service="Прочищення каналізації">Залишити заявку</button>
+          </article>
+
+          <article class="service">
+            <div class="service__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="2" y="7" width="14" height="10" rx="2"/><path d="m16 11 6-3v8l-6-3"/><circle cx="9" cy="12" r="2"/></svg>
+            </div>
+            <h3>Відеодіагностика каналізації</h3>
+            <p>Оглядаємо внутрішній стан каналізації камерою, щоб побачити проблему й обрати спосіб її вирішення.</p>
+            <button class="btn btn--dark service__btn" type="button" data-service="Відеодіагностика">Залишити заявку</button>
+          </article>
+        </div>
+
+        <aside class="notice" aria-label="Важливо про якість води">
+          <strong>Про воду після чистки.</strong>
+          Ми не проводимо дезінфекцію криниць. Сама чистка не підтверджує, що вода придатна для пиття, — це визначають за результатами аналізу води, а подальші дії — за рекомендаціями відповідних фахівців.
+        </aside>
+      </div>
+    </section>
+
+    <!-- Як працюємо -->
+    <section class="section section--dark" id="yak-pratsiuiemo" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Як працюємо</p>
+          <h2 id="process-title">Чотири кроки від дзвінка до результату</h2>
+        </div>
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num" aria-hidden="true">1</span>
+            <h3>Звернення</h3>
+            <p>Ви телефонуєте або залишаєте заявку на сайті.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">2</span>
+            <h3>Уточнення</h3>
+            <p>З’ясовуємо населений пункт, проблему, особливості об’єкта та під’їзд.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">3</span>
+            <h3>Погодження</h3>
+            <p>Погоджуємо обсяг робіт, вартість або порядок її визначення та час виїзду.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">4</span>
+            <h3>Робота й результат</h3>
+            <p>Виконуємо погоджені роботи й показуємо результат.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Наші роботи -->
+    <section class="section" id="roboty" aria-labelledby="roboty-title">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow eyebrow--dark">Наші роботи</p>
+          <h2 id="roboty-title">Реальна робота, реальна техніка</h2>
+          <p class="section__sub">Власна техніка й команда, яка виїжджає на об’єкти.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery__item gallery__item--wide">
+            <img src="images/truck-side-800.jpg" srcset="images/truck-side-800.jpg 600w, images/truck-side-1280.jpg 960w" sizes="(min-width: 900px) 50vw, 100vw" width="960" height="1280" loading="lazy" alt="Синя машина-цистерна Ківі Сервіс збоку">
+            <figcaption>Наша техніка</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/work-sewer-900.jpg" srcset="images/work-sewer-900.jpg 506w, images/work-sewer-1600.jpg 900w" sizes="(min-width: 900px) 25vw, 50vw" width="900" height="1600" loading="lazy" alt="Майстри Ківі Сервіс опускають шланг у каналізаційну решітку">
+            <figcaption>Роботи з каналізацією</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/crew-900.jpg" srcset="images/crew-900.jpg 506w, images/crew-1600.jpg 900w" sizes="(min-width: 900px) 25vw, 50vw" width="900" height="1600" loading="lazy" alt="Троє з команди Ківі Сервіс біля машини">
+            <figcaption>Команда на виїзді</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/truck-rear-900.jpg" srcset="images/truck-rear-900.jpg 506w, images/truck-rear-1600.jpg 900w" sizes="(min-width: 900px) 25vw, 50vw" width="900" height="1600" loading="lazy" alt="Машина-цистерна Ківі Сервіс ззаду зі шлангами">
+            <figcaption>Шланги й обладнання</figcaption>
+          </figure>
+        </div>
+        <!-- Кейси «до / після» додати сюди, коли будуть перевірені пари фото. Шаблон — у README. -->
+        <p class="social-more" data-socials-wrap hidden>Більше відео з об’єктів — у наших соцмережах: <span data-socials></span></p>
+      </div>
+    </section>
+
+    <!-- Команда -->
+    <section class="section section--tint" id="komanda" aria-labelledby="komanda-title">
+      <div class="container team">
+        <div class="team__media">
+          <img class="photo" src="images/team-900.jpg" srcset="images/team-900.jpg 506w, images/team-1600.jpg 900w" sizes="(min-width: 900px) 45vw, 100vw" width="900" height="1600" loading="lazy" alt="Команда Ківі Сервіс у фірмовій робі біля машини компанії">
+
+        </div>
+        <div class="team__text">
+          <p class="eyebrow eyebrow--dark">Команда</p>
+          <h2 id="komanda-title">За роботою стоять реальні люди</h2>
+          <p>Ківі Сервіс — команда, яка показує свою роботу відкрито: від стану криниці до результату після чистки. Роман розповідає про процеси, а майстри демонструють їх на реальних об’єктах.</p>
+          <p>Колись Роман сам приймав дзвінки, їздив на об’єкти й керував усіма процесами. Роботи ставало більше — з’явилися техніка та команда, якій він довірив частину справ.</p>
+          <blockquote class="quote">
+            <p>«Файно вимиємо криницю гідрофрезою зверху донизу, розм’якшимо дно, заберемо наноси».</p>
+            <footer>— Роман, власник Ківі Сервіс</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Відгуки: прихована, доки немає підтверджених матеріалів з дозволом -->
+    <section class="section" id="vidhuky" aria-labelledby="vidhuky-title" hidden data-reviews>
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow eyebrow--dark">Відгуки</p>
+          <h2 id="vidhuky-title">Що кажуть клієнти</h2>
+        </div>
+        <div class="reviews" data-reviews-list></div>
+      </div>
+    </section>
+
+    <!-- Географія -->
+    <section class="section" id="heohrafiia" aria-labelledby="geo-title">
+      <div class="container geo">
+        <div>
+          <p class="eyebrow eyebrow--dark">Географія</p>
+          <h2 id="geo-title">Де ми працюємо</h2>
+          <p class="lead lead--dark">Працюємо на Івано-Франківщині та Львівщині. Можливість виїзду у ваш населений пункт уточнюйте під час звернення.</p>
+          <a class="btn btn--primary" href="#zaiavka" data-focus-city>Вказати населений пункт</a>
+        </div>
+        <div class="geo__regions">
+          <div class="region">
+            <h3>Івано-Франківщина</h3>
+            <ul class="chips">
+              <li>Калуський район</li>
+              <li>Надвірнянщина</li>
+              <li>Околиці Яремче</li>
+              <li>Ворохта</li>
+              <li>Чорні Ослави</li>
+              <li>Білі Ослави</li>
+            </ul>
+          </div>
+          <div class="region">
+            <h3>Львівщина</h3>
+            <ul class="chips">
+              <li>Жидачівщина</li>
+              <li>Стрийщина</li>
+              <li>Околиці Львова</li>
+            </ul>
+          </div>
+          <p class="geo__note">Тут перелічено місця, де ми вже працювали. Якщо вашого села немає у списку — напишіть, уточнимо.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--tint" id="pytannia" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <div class="section__head">
+          <p class="eyebrow eyebrow--dark">Часті запитання</p>
+          <h2 id="faq-title">Відповідаємо до дзвінка</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Чи чистите кам’яні криниці?</summary>
+            <p>Так, команда працює з кам’яними криницями. Особливості конкретного об’єкта уточнюємо перед виїздом.</p>
+          </details>
+          <details>
+            <summary>Скільки коштує чистка?</summary>
+            <p>Вартість і склад робіт узгоджуємо індивідуально. Для оцінки повідомте населений пункт та особливості об’єкта.</p>
+          </details>
+          <details>
+            <summary>Чи приїдете в наше село?</summary>
+            <p>Повідомте населений пункт — уточнимо можливість та умови виїзду.</p>
+          </details>
+          <details>
+            <summary>Чи проводите дезінфекцію?</summary>
+            <p>Ні. Спочатку потрібен аналіз води, а подальші дії визначають за рекомендаціями фахівців.</p>
+          </details>
+          <details>
+            <summary>Чи можна пити воду після чистки?</summary>
+            <p>Сам факт чистки не підтверджує питну якість води. Це визначають за результатами аналізу.</p>
+          </details>
+          <details>
+            <summary>Що підготувати до приїзду?</summary>
+            <p>Під час погодження виїзду команда пояснить, що потрібно саме для вашого об’єкта.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Заявка -->
+    <section class="section section--dark" id="zaiavka" aria-labelledby="zaiavka-title">
+      <div class="container lead-block">
+        <div class="lead-block__text">
+          <p class="eyebrow">Заявка</p>
+          <h2 id="zaiavka-title">Потрібно почистити криницю або каналізацію?</h2>
+          <p class="lead">Залиште номер і населений пункт — зв’яжемося, уточнимо деталі та погодимо подальші дії.</p>
+          <div class="lead-block__alt" id="kontakty">
+            <p class="lead-block__alt-title">Або зв’яжіться напряму</p>
+            <ul class="contacts" data-contacts>
+              <li class="contacts__empty">Телефон і месенджери буде додано після підтвердження.</li>
+            </ul>
+          </div>
+        </div>
+
+        <form class="form" id="lead-form" novalidate>
+          <div class="field">
+            <label for="f-phone">Номер телефону <span class="req" aria-hidden="true">*</span></label>
+            <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="0XX XXX XX XX" required aria-describedby="f-phone-err">
+            <p class="field__err" id="f-phone-err" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="f-city">Населений пункт <span class="req" aria-hidden="true">*</span></label>
+            <input id="f-city" name="city" type="text" autocomplete="address-level2" maxlength="100" placeholder="Наприклад, Калуш" required aria-describedby="f-city-err">
+            <p class="field__err" id="f-city-err" aria-live="polite"></p>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-name">Ім’я</label>
+              <input id="f-name" name="name" type="text" autocomplete="given-name" maxlength="80">
+            </div>
+            <div class="field">
+              <label for="f-service">Послуга</label>
+              <select id="f-service" name="service">
+                <option value="">Ще не знаю</option>
+                <option>Чистка криниці</option>
+                <option>Відкачування септика</option>
+                <option>Прочищення каналізації</option>
+                <option>Відеодіагностика</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-comment">Коротко про задачу</label>
+            <textarea id="f-comment" name="comment" rows="3" maxlength="1000" placeholder="Наприклад: кам’яна криниця, давно не чистили"></textarea>
+          </div>
+          <!-- Пастка для ботів: людина цього поля не бачить -->
+          <div class="hp" aria-hidden="true">
+            <label for="f-website">Не заповнюйте</label>
+            <input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off">
+          </div>
+
+          <button class="btn btn--primary btn--lg btn--block" type="submit">Надіслати заявку</button>
+          <p class="form__privacy">Номер використаємо лише для відповіді на заявку. Без реклами й розсилок. <a href="#" data-privacy-link>Політика конфіденційності</a></p>
+          <div class="form__status" role="status" aria-live="polite" hidden></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <a class="logo logo--light" href="#top"><span class="logo__dot" aria-hidden="true"></span>Ківі Сервіс</a>
+        <p class="footer__slogan">Ківі Сервіс на зв’язку</p>
+      </div>
+      <ul class="footer__links" data-footer-contacts></ul>
+      <p class="footer__legal" data-legal></p>
+    </div>
+  </footer>
+
+  <div class="mobile-bar" aria-label="Швидкий зв’язок">
+    <a class="btn btn--ghost-light" data-phone-link href="#kontakty">Подзвонити</a>
+    <a class="btn btn--primary" href="#zaiavka">Залишити заявку</a>
+  </div>
+</body>
+</html>

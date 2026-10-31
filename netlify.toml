@@ -1,0 +1,7 @@
+# Ківі Сервіс — налаштування Netlify. Збірка не потрібна: сайт — готові файли з public/.
+[build]
+  publish = "public"
+  command = ""
+
+[functions]
+  directory = "netlify/functions"
